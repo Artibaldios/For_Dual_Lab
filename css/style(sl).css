@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #F8F8F8;
+}
+
+/*===========================section2===============================*/
+
+/*===========================section2===============================*/
+.section2{
+  position: absolute;
+  top: 396px;
+  left: 16px;
+}
+.section2 span{
+  height: 24px;
+  left: 16px;
+  font-family: Lato;
+  font-size: 20px;
+  color: #1F1F1F;
+}
+.slick-track{
+  display: flex;
+  width: 204px;
+}
+.slick-list{
+  overflow: hidden;
+  width: 204px;
+  margin: 0 20px;
+}
+
+.box_for_slider{
+  padding: 20px 16px 0 16px;
+  
+    
+
+}
+
+.slider_item  .imgbox_in_slider img {
+  position: absolute;
+  width: 202px;
+  height: 168px;
+  left: 1px;
+  top: 1px;
+  border-radius: 12px;
+}
+.slick-slider{
+  display: flex;
+  align-items: center;
+  
+}
+.slider_item{
+  position: relative;
+  height: 248px;
+  width: 204px;
+  background-color: white;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.imgbox_in_slider{
+  
+  width: 202px;
+  height: 168px;
+  border-radius: 12px;
+}
+.box_for_name_of_the_product{
+  padding: 0 0 12px 16px ;
+  font-family: Lato;
+  font-size: 14px;
+  
+}
+.box_for_prize_and_mark{
+  
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-left:  16px;
+}
+.box_for_mark {
+  display: flex;
+  padding-right: 18px;
+}
+.box_for_mark img {
+  width: 14px;
+  height: 14px;
+}
+.box_for_mark span {
+  font-size: 14px;
+  line-height: 17px;
+}
+.slider .slick-arrow.slick-prev,.slick-arrow.slick-next {
+  width: 30px;
+  height: 30px;
+  background-color: #317AE8;
+  border-radius: 3px;
+  position: relative;
+  font-size: 0;
+  border: 0;
+}
+
+.slick-arrow.slick-next:before,
+.slick-arrow.slick-next:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 15px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  border-radius: 2px;
+}
+.slick-arrow.slick-next:before {
+  transform-origin: 100% 100%;
+  transform: translate(-75%, -50%) rotate(45deg);
+}
+.slick-arrow.slick-next:after {
+  transform-origin: 100% 0%;
+  transform: translate(-75%, -50%) rotate(-45deg);
+}
+.slick-arrow.slick-prev:before,
+.slick-arrow.slick-prev:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 15px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  border-radius: 2px;
+
+}
+.slick-arrow.slick-prev:before {
+  transform-origin: 100% 100%;
+  transform: translate(-150%, -100%) rotate(135deg);
+}
+.slick-arrow.slick-prev:after {
+  transform-origin: 100% 0%;
+  transform: translate(-150%, 0%) rotate(-135deg);
+}
+.slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slick-dots li {
+  list-style: none;
+  margin: 0 10px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid #317AE8;
+  
+}
+.slick-dots .slick-active button{
+  background: #317AE8;
+}
+/*===================ch============================================================*/
+.box_for_prize_and_mark p{
+position: absolute;
+left: 56px;
+}
+.invisible {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.slick-initialized {
+  visibility: visible;
+  opacity: 1;    
+}
+/*===================modal window============================================================*/
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding: 246px 16px 0 0; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  width: 343px;
+  height: 248px;  
+  border: 1px solid #888;
+  border-radius: 16px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.modal-content img {
+  margin-top: 36px;
+
+}
+.modal-content p {
+  margin-bottom: 28px;
+
+}
+.close {
+  width: 146px;
+  height: 46px;
+  font-weight: bold;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  background: #317AE8;
+  border: 0;
+  border-radius: 8px;
+}
+
+
+.submitbtn{
+  width: 343px;
+  height: 46px;
+  background: #317AE8;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  font-family: Lato-Semibold;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 36px 16px 41px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+  @font-face {
+    
+    font-family: "SF Pro Text"; 
+    src: url("../fonts/SF Pro Text.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+    @font-face {
+    
+        font-family: "Lato"; 
+        src: url("../fonts/Lato.ttf") format("truetype"); 
+        font-style: normal;  
+        } 
+
+
+        #Best{
+          height: 45px;
+          width: 45px;
+          background: white;
+        }
